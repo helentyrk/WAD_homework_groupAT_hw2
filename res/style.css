@@ -1,0 +1,134 @@
+* {
+	font-family: 'Lato', sans-serif;
+	}
+	
+	html, body {
+		margin: 0;
+		padding: 0;
+		background-color: white;
+		}
+
+	header {
+		background-color: white;
+		padding: 20px;
+		margin-left: auto;
+  		margin-right: auto;
+		}
+		
+	nav div.search-container {
+		text-align: center;
+		}
+
+
+	/* search box */
+	nav div.search-container > input {
+		box-sizing: border-box;
+		border: 2px solid #73AD21;
+		height: 40 px;
+		width: 20%;
+		margin: 0;
+		padding: 10px;
+		border: 2px solid #e0e0e0;
+		}
+		
+	/* search box button */
+	nav div.search-container > button {
+		box-sizing: border-box;
+		height: 40px;
+		width: 60px;
+		margin: 0;
+		padding: 10px;
+		border: 1px solid #e0e0e0;
+		cursor: pointer;
+		background-color: #3333cc;
+		color: white;
+		}
+	/* Flexbox */	
+	section.flex-container {
+		display: flex;
+		flex-flow: row;
+		}
+		
+	/* style middle container */
+	section div.content-container{
+		width: 50%;
+		height: 1000px;
+		background-color: white;
+		}
+	
+	/*style sidebars */
+	section div.sidebar{
+		width: 25%;
+		height: 1700px;
+		background-image: linear-gradient(135deg, #8BC6EC 50%, #9599E2 100%);
+		}
+	
+	/* style images in the content container (posts) */
+	.content-container ul li img {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 80%;
+		}
+	.content-container .user{
+		border-radius: 60%;
+		border-color: black;
+		padding: 15px;
+		width: 50px;
+		height: 50px;
+		margin-left: 5px;
+	}
+	.content-container h3{
+		margin-left: 15px;
+		margin-top: 0px;
+	}
+
+	.content-container button{
+		width: 75px;
+		margin-top: 20px;
+		font-size: 15px;
+		background-color: white;
+		border-radius: 45px;
+		transition: all 0.5s ease 0s;
+		outline: none;
+
+	}
+	.content-container button:focus{
+		background-color: #00b7ff;
+		color: #fff;
+		
+	}
+	
+		
+	/* remove bullet points from the list, add border to an item */
+	li {
+		list-style: none;
+		box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+		padding: 50px;
+		margin: 20px;
+		text-align: left;
+		margin-left: auto;
+		margin-right: auto;
+		width: 80%;
+		}
+		
+	/* style post text */
+	p.text {
+		margin-bottom: 5px;
+		text-align: left;
+		}
+		
+	
+	/* ID selector */
+	
+	#date_time {
+		font-weight: lighter;
+		text-align: right;
+		font-size: 12px;
+		color: gray;
+		}
+
+		
+
+		
+		
