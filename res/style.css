@@ -16,12 +16,15 @@
 		}
 		
 	nav div.search-container {
+		width: 100%;
+		position: fixed;
 		text-align: center;
 		}
 
 
 	/* search box */
 	nav div.search-container > input {
+	
 		box-sizing: border-box;
 		border: 2px solid #73AD21;
 		height: 40 px;
@@ -59,7 +62,7 @@
 	/*style sidebars */
 	section div.sidebar{
 		width: 25%;
-		height: 1700px;
+		height: 7200px;
 		background-image: linear-gradient(135deg, #8BC6EC 50%, #9599E2 100%);
 		}
 	
