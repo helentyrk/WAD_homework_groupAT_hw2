@@ -131,7 +131,41 @@
 		color: gray;
 		}
 
+	/* Dropdown menu */		
+	
+	/* Dropdown Button */
+	.dropdown-button {
+	  background-color: #0066ff;
+	  color: black;
+	  padding: 15px;
+	  font-size: 15px;
+	  border: none;
+	  cursor: pointer;
+	  width: 100%;
+	  border-radius: 25px;
+	}
+	
+	/* Dropdown content: user name and email */
+	.dropdown-content {
+	  display: none;
+	  position: absolute;
+	  background-color: none;
+	}
+	
+	.dropdown{
+	  display: inline-block;
+	}
 		
+	.show {display:block;}
 
-		
-		
+
+	/* style image for profile (sidebar) */
+	.sidebar div img {
+		margin-left: auto;
+		margin-right: auto;
+		width: 4%;
+		border-radius: 40px;
+		position: absolute;
+		right: 7%;
+		top: 7%;
+		}
